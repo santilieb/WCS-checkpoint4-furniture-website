@@ -6,6 +6,8 @@ import Profile from "./components/Profile";
 import AuthContextProvider from "./contexts/AuthContext";
 import Homepage from "./components/Homepage";
 import Navigation from "./components/Navigation";
+import About from "./components/About";
+import Contact from "./components/Contact";
 import './App.css';
 // ! FALTA CRIAR OS PROTECTED ROUTES!!
 
@@ -22,6 +24,8 @@ function App() {
             <Route path="/" element={<Homepage />} />
             <Route path="/homepage" element={<Homepage />} />
             <Route path="*" element={<Navigate to="/login" replace />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </BrowserRouter>
       </AuthContextProvider>

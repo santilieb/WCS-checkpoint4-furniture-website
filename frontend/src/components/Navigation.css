@@ -1,4 +1,7 @@
 /* NAVIGATION */
+* {
+    background-color: #EEECEE;
+}
 
 .logo svg {
     width: 160px;
@@ -41,17 +44,17 @@ nav a:nth-child(4) {
 }
 
 
-nav a:hover {
+/* nav a:hover {
     opacity: 0.6;
     transition: opacity 0.4s ease-in-out;
     -moz-transition: opacity 0.4s ease-in-out;
     -webkit-transition: opacity 0.4s ease-in-out;
     -o-transition: opacity 0.4s ease-in-out;
-}
+} */
 
 .hamburger {
     margin: 0;
-    position: relative;
+    position: absolute;
     display: block;
     width: 40px;
     cursor: pointer;
@@ -102,13 +105,13 @@ nav a:hover {
 }
 
 .side-is-active {
-    left: 0 !important;
+    opacity: 1 !important;
 }
 
 .mobileNav {
+    background-color: #EEECEE !important;
     transition: ease-out 0.2s;
     position: fixed;
-    left: 100%;
     width: 100%;
     height: calc(100% - 73px);
     display: flex;
@@ -117,8 +120,10 @@ nav a:hover {
     z-index: 2;
     background-color: #FAF9FF;
     align-items: center;
-    gap: 50px;
+    gap: 25px;
     top: 74px;
+    opacity: 0;
+    left: 0;
 }
 
 .mobileNav a {
