@@ -32,16 +32,14 @@ function Navbar(props) {
                     <div className="">
                         <Link to="/">Homepage</Link>
                         <Link to="/about">About Me</Link>
-                        <Link to="/profile">Profile</Link>
-                        <Link to="/contact">Contact</Link>
+                        <Link to="/contact">Contacts</Link>
                     </div>
                 </nav>
             </div>
             <nav className={active ? "side-is-active , mobileNav" : "side-not-active mobileNav"} >
                 <Link to="/" onClick={handleHamburger}>Homepage</Link>
                 <Link to="/about" onClick={handleHamburger}>About Me</Link>
-                <Link to="/profile" onClick={handleHamburger}>Profile</Link>
-                <Link to="/contact" onClick={handleHamburger}>Contact</Link>
+                <Link to="/contact" onClick={handleHamburger}>Contacts</Link>
             </nav>
         </div>
     );

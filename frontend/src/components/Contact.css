@@ -2,10 +2,35 @@
     padding: 40px;
 }
 
+.contact-right-side img {
+    margin-top: 40px;
+}
+
+.contact-right-side img {
+    width: 100%;
+}
+
+.orange {
+    color: #f5822a;
+}
+
+.blue {
+    color: #251e88;
+}
+
 @media only screen and (min-width: 1024px) {
     .contact-main-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        padding: 0 40px 40px 40px;
+    }
 
+    .contact-right-side img {
+        width: 75%;
+        margin-top: 40px;
+    }
+
+    .contact-left-side {
+        padding: 5% 10% 10% 10%;
     }
 }

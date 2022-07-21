@@ -1,5 +1,3 @@
-.carousel-container {}
-
 .about-text-container div {
     color: #251e88;
     text-align: center;
@@ -19,4 +17,21 @@
 
 .orange {
     color: #f5822a;
+}
+
+@media only screen and (min-width: 1024px) {
+    .carousel-container {
+        width: 50% !important;
+        margin-left: 25% !important;
+    }
+
+    .about-text-container img {
+        width: 50% !important;
+        margin-left: 25% !important;
+    }
+
+    .about-text-container div {
+        width: 50% !important;
+        margin-left: 25% !important;
+    }
 }

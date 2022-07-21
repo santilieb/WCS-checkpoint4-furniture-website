@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Login from "./components/Login";
-import Signup from "./components/Signup";
-import Profile from "./components/Profile";
+// import Login from "./components/Login";
+// import Signup from "./components/Signup";
+// import Profile from "./components/Profile";
 import AuthContextProvider from "./contexts/AuthContext";
 import Homepage from "./components/Homepage";
 import Navigation from "./components/Navigation";
@@ -20,12 +20,12 @@ function App() {
         <BrowserRouter>
           <Navigation />
           <Routes>
-            <Route path="/login" element={<Login />} />
-            <Route path="/signup" element={<Signup />} />
-            <Route path="/profile" element={<Profile />} />
+            {/* <Route path="/login" element={<Login />} />
+            <Route path="/signup" element={<Signup />} /> */}
+            {/* <Route path="/profile" element={<Profile />} /> */}
             <Route path="/" element={<Homepage />} />
             <Route path="/homepage" element={<Homepage />} />
-            <Route path="*" element={<Navigate to="/login" replace />} />
+            <Route path="*" element={<Navigate to="/homepage" replace />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
