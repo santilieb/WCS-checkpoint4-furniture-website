@@ -36,7 +36,7 @@ function Contact() {
 
             </section>
             <section className='contact-right-side'>
-                <p>Insert Google map here</p>
+                Insert Google map here
             </section>
         </main>
     );
