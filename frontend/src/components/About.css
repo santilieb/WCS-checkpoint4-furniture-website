@@ -1,1 +1,22 @@
 .carousel-container {}
+
+.about-text-container div {
+    color: #251e88;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.about-text-container p {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-text-container img {
+    padding: 40px;
+}
+
+.orange {
+    color: #f5822a;
+}

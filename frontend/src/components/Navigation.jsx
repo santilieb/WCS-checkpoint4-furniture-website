@@ -37,7 +37,7 @@ function Navbar(props) {
                     </div>
                 </nav>
             </div>
-            <nav className={active ? "side-is-active , mobileNav" : "mobileNav"} >
+            <nav className={active ? "side-is-active , mobileNav" : "side-not-active mobileNav"} >
                 <Link to="/" onClick={handleHamburger}>Homepage</Link>
                 <Link to="/about" onClick={handleHamburger}>About Me</Link>
                 <Link to="/profile" onClick={handleHamburger}>Profile</Link>

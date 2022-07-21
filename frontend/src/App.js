@@ -9,7 +9,9 @@ import Navigation from "./components/Navigation";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import './App.css';
-// ! FALTA CRIAR OS PROTECTED ROUTES!!
+import Footer from "./components/Footer";
+
+// ! PROTECTED ROUTES STILL MISSING!!
 
 function App() {
   return (
@@ -27,6 +29,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
+          <Footer />
         </BrowserRouter>
       </AuthContextProvider>
     </div>
