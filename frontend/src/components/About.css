@@ -19,7 +19,7 @@
     color: #f5822a;
 }
 
-@media only screen and (min-width: 1024px) {
+/* @media only screen and (min-width: 1024px) {
     .carousel-container {
         width: 50% !important;
         margin-left: 25% !important;
@@ -33,5 +33,5 @@
     .about-text-container div {
         width: 50% !important;
         margin-left: 25% !important;
-    }
-}
+    } */
+/* } */

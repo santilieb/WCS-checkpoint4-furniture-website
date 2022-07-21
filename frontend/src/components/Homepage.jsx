@@ -24,10 +24,12 @@ import stool_4 from '../images/stool-4.png';
 import table_1 from '../images/table-1.png';
 import table_2 from '../images/table-2.png';
 import table_3 from '../images/table-3.png';
+import shoe_hammer from '../images/shoe_hammer.jpg';
 import Carousel from 'react-bootstrap/Carousel';
 import './Homepage.css';
 
 const chestnut = [chestnut_table_1, chestnut_table_2, chestnut_table_3, chestnut_table_4, chestnut_table_5];
+const cabinets = [cabinet_1, cabinet_2, cabinet_3, cabinet_4, cabinet_5];
 
 function Swiper({ img }) {
     return (
@@ -49,9 +51,11 @@ function Swiper({ img }) {
 function Homepage() {
     return (
         <main className="homepage">
-            <div className="carousel-container">
-                <Swiper img={chestnut} />
-            </div>
+            <img
+                className="d-block w-100"
+                src={shoe_hammer}
+                alt={`Desktop_2`}
+            />
             <div className="homepage-description">
                 <u>HANDMADE IN LISBON</u>
             </div>
@@ -71,7 +75,66 @@ function Homepage() {
             <div className="homepage-description">
                 <u>TABLES AND DESKS</u>
             </div>
+            <div className="">
+                <Swiper img={chestnut} />
+            </div>
+            <div className="desktop-container">
+                <img
+                    className="d-block w-100"
+                    src={desktop_1}
+                    alt={`Desktop_1`}
+                />
+                <img
+                    className="d-block w-100"
+                    src={desktop_2}
+                    alt={`Desktop_2`}
+                />
+            </div>
+            <hr />
+            <div className="homepage-description">
+                <u>CHAIRS AND STOOLS</u>
+            </div>
+            <div className="chairs-stools-container">
+                <div className="chairs-container">
+                    <img
+                        className="d-block w-100"
+                        src={chair_4}
+                        alt={`Chair_4`}
+                    />
+                    <img
+                        className="d-block w-100"
+                        src={chair_2}
+                        alt={`Chair_2`}
+                    />
+                    <img
+                        className="d-block w-100"
+                        src={chair_3}
+                        alt={`Chair_3`}
+                    />
+                </div>
+                <div className="stools-container">
+                    <img
+                        className="d-block w-100"
+                        src={stool_3}
+                        alt={`Stool_3`}
+                    />
+                    <img
+                        className="d-block w-100"
+                        src={stool_1}
 
+                        alt={`Stool_1`}
+                    />
+                </div>
+            </div>
+            <hr />
+            <div className="cabinets-section">
+                <div className="homepage-description">
+                    <u>CABINETS</u>
+                </div>
+                <div className="carousel-cabinets">
+                    <Swiper img={cabinets} />
+                </div>
+            </div>
         </main>
     );
 }

@@ -79,6 +79,7 @@ p {
     margin-bottom: 0 !important;
 }
 
+/* 
 @media only screen and (min-width: 1024px) {
 
     .footer-container {
@@ -109,4 +110,4 @@ p {
     .footer-2-flex {
         gap: 140px;
     }
-}
+} */
