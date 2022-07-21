@@ -1,6 +1,11 @@
 import { Link } from "react-router-dom";
 import logo from '../images/logo.svg';
+import instagram from '../images/instagram.svg';
 import "./Footer.css";
+
+const handleClick = () => {
+    window.scrollTo(0, 0);
+}
 
 function Footer(props) {
     return (
@@ -8,37 +13,23 @@ function Footer(props) {
             <hr />
             <div className="footer-flex">
                 <div className="footer-1-flex">
-                    <Link to="/">
-                        <div className='footer-logo'>
-                            <img className='logo'
-                                src={logo}
-                                alt="logo"
-                            />
-                        </div>
-                    </Link>
+                    <p onClick={handleClick}>
+                        BACK TO TOP
+                    </p>
+
                     <span className="copyright">
                         © 2022 Santiago Liebrecht
                     </span>
                 </div>
 
                 <div className="footer-2-flex">
-                    <div>
-                        <p>Menu</p>
-                        <Link to="/">Home</Link>
-                        <Link to="/beaches">Beaches</Link>
-                        <Link to="/news">News</Link>
-                        <Link to="/info">Info</Link>
-                    </div>
                     <div className="social-grid">
-                        <p>Find us</p>
-                        <a href="https://github.com/TiJuCo/project-surfapp" target="blank">
-                            Github
-                        </a>
-                        <a href="https://github.com/TiJuCo/project-surfapp" target="blank">
-                            Linkedin
-                        </a>
-                        <a href="https://github.com/TiJuCo/project-surfapp" target="blank">
-                            Twitter
+                        <p>FIND ME ON INSTAGRAM</p>
+                        <a href="https://www.instagram.com/sr.fix">
+                            <img
+                                className="instagram"
+                                src={instagram}
+                                alt='instagram-logo' />
                         </a>
                     </div>
                 </div>
