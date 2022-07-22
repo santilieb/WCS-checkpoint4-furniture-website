@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "concurrently \"npm --prefix ./frontend start\" \"npm --prefix ./backend start\"",
-    "build": "react-scripts build",
+    "build": "react-scripts build"
   },
   "repository": {
     "type": "git",
