@@ -15,21 +15,21 @@ function Contact() {
                     <h4>Email:</h4>
                 </div>
                 <div className="contact-left-side__text">
-                    <p>email@address.com</p>
+                    <p>sr.fix@gmail.com</p>
                 </div>
                 <br />
                 <div className="contact-left-side__title">
                     <h4>Tel:</h4>
                 </div>
                 <div className="contact-left-side__text">
-                    <p>1234567890</p>
+                    <p>985943975</p>
                 </div>
                 <br />
                 <div className="contact-left-side__title">
                     <h4>Address:</h4>
                 </div>
                 <div className="contact-left-side__text">
-                    <p>Rua de Lisboa, 88</p>
+                    <p>Rua de Oviedo, 88</p>
                     <p>Lisboa </p>
                     <p>1920-123 Portugal</p>
                 </div>

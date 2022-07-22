@@ -33,13 +33,22 @@ function Footer(props) {
                         </a>
                     </div>
                 </div>
+                <div className="footer_contacts">
+                    <h6>
+                        <u>Contacts</u>
+                    </h6>
+                    <div className="footer_email_tel">
+                        <p>Email: sr.fix@gmail.com</p>
+                        <p>Tel: 985943975</p>
+                    </div>
+                </div>
 
-                <div className="footer-3-flex">
+                {/* <div className="footer-3-flex">
                     <div className="social-grid">
                         <p>Find us</p>
                         <div className="social-icons-grid"></div>
                     </div>
-                </div>
+                </div> */}
 
                 <span className="copyright-mobile">
                     © 2022 Santiago Liebrecht

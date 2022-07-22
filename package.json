@@ -1,0 +1,23 @@
+{
+  "name": "wcs-checkpoint4-furniture-website",
+  "version": "1.0.0",
+  "description": "Handmade furniture website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm --prefix ./frontend start\" \"npm --prefix ./backend start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santilieb/WCS-checkpoint4-furniture-website.git"
+  },
+  "author": "Santiago Liebrecht",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/santilieb/WCS-checkpoint4-furniture-website/issues"
+  },
+  "homepage": "https://github.com/santilieb/WCS-checkpoint4-furniture-website#readme",
+  "dependencies": {
+    "concurrently": "^7.3.0"
+  }
+}
